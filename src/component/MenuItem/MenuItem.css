@@ -1,0 +1,27 @@
+
+.menuItemBox {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuItemText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menuItemTitle {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menuItemInfo {
+    color: #686666dd;
+}
+
+.menuItemPrice {
+    font-size: 22px;
+    color: rgb(255, 115, 0);
+}

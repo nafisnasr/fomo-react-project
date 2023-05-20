@@ -1,0 +1,27 @@
+.navbar{
+    width: 100%;
+}
+.navIconContainer {
+    width: 230px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navIconWrapper {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+}
+
+.navIcon {
+    color: #fff;
+    font-size: 18px;
+}

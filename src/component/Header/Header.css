@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    background-color: rgb(255, 196, 0);
+}
+.headerPicContainer{
+    align-items: center;
+    justify-content: center;
+}
+.headerPic {
+    width: 80%;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+    
+.headerAboutText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    color: #fff;
+}
+.description{
+    font-size: 30px;
+}
+.headerAboutText h1 {
+    font-family: 'Lalezar';
+    font-size: 80px;
+}
+
+.headerAboutBtn{
+    width:60%;
+    background-color: #ddd !important;
+}

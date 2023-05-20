@@ -1,0 +1,18 @@
+.itemHeader {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../public/images/headerBackground.png");
+    flex-direction: column;
+    height:300px;
+}
+
+.itemHeader h3 {
+    font-family: 'Lalezar';
+}
+
+.itemHeaderLinks .link {
+    color: rgb(255, 115, 0);
+}

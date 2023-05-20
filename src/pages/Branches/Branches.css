@@ -1,0 +1,28 @@
+.branchesContainer {
+    margin: 20px;
+}
+
+.branchesWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.branchesTitle{
+    font-family: 'Lalezar';
+    margin: 10px 0px;
+}
+.branchItem{
+    width: 100%;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    direction: rtl;
+    padding: 20px;
+    margin: 10px 0px;
+}
+.branchImgBox{
+    width: 10%;
+}

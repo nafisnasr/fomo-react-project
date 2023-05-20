@@ -1,0 +1,59 @@
+.productBox {
+    margin-top: 50px;
+}
+
+
+
+.productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.productTitleContainer h3 {
+    font-family: 'Lalezar';
+    margin-right: 20px;
+}
+
+.productWrapper {
+    margin: 30px;
+    padding: 20px;
+}
+
+.productItemImage {
+    width: 90%;
+}
+
+.priceContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    direction: rtl;
+    margin: 20px;
+}
+
+.showAllProducts {
+    margin-left: 40px;
+}
+
+.showAllIcon {
+    font-size: 30px;
+    color: rgb(255, 166, 0);
+}
+.productItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin: 5px;
+}
+
+
+.showAllIcon:hover {
+    color: rgb(241, 165, 23);
+}

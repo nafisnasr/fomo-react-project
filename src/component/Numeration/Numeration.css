@@ -1,0 +1,25 @@
+.numeration{
+    width: 100%;
+    background-color: rgb(255, 174, 0);
+    padding: 20px;
+}
+.numerationBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+    padding: 10px;
+}
+.numerationTitle{
+    font-size: 50px;
+    font-family: 'Lalezar';
+}
+.numerationTitle span{
+    font-size: 30px;
+}
+
+.numerationDescription{
+    font-family: 'Lalezar';
+font-size: 20px;
+}

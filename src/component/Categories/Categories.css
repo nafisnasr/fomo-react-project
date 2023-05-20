@@ -1,0 +1,21 @@
+.sectionWrapper{
+    width: 100%;
+    padding: 20px;
+    background-image: url("../../../public/images/section-bg-1.jpg");
+}
+.imgContainer{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.img-title{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    background-color: rgb(255, 196, 0);
+    width: 45%;
+    height: 60px;
+    text-align: center;
+    line-height: 40px;
+    margin: 25px;
+    color: #fff;
+}

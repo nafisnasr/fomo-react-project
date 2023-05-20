@@ -1,0 +1,43 @@
+.offers {
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.offers h3 {
+    font-family: 'Lalezar';
+    color: #fff;
+}
+
+.offersWrapper {
+    border: 3px solid rgb(255, 174, 0);
+    margin: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.offersItem {
+    width: 100%;
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    color: #fff;
+}
+
+.offersTitlesBox {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.offersTitlesBox .available {
+    color: rgb(216, 151, 10);
+    font-size: 14px;
+}

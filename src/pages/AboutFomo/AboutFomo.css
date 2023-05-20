@@ -1,0 +1,108 @@
+.aboutFomoInfo {
+    padding: 20px;
+    margin: 10px;
+}
+
+.aboutFomoInfoWrapper {
+    padding: 20px;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutFomoInfoRight,
+.aboutFomoInfoLeft {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutTitle {
+    color: rgb(255, 136, 0);
+    margin: 10px 0px;
+    font-family: 'Lalezar';
+}
+
+.aboutDetail {
+    padding: 20px;
+}
+
+.addressBox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    flex-direction: row;
+}
+
+.addressBoxText {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.addressBoxText .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 2px;
+}
+
+.addressBoxText .info {
+    color: #5c5a5a;
+}
+
+.addressBoxIcon {
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(255, 136, 0);
+}
+
+.aboutFomoInfoLeft {
+    padding: 20px;
+}
+
+.formWrapper {
+    border: 1px solid #575555;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formWrapper .formTitle {
+    font-family: 'Lalezar';
+    margin: 10px;
+}
+
+.formWrapper input {
+    margin: 10px;
+    padding: 7px 5px;
+}
+
+.formWrapper textarea {
+    padding-right: 10px;
+}
+
+.formWrapper textarea,
+.formWrapper input {
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    background-color: #ddd;
+    margin: 10px;
+}
+
+.formBtn {
+    width: 50%;
+    border: none;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 7px 5px;
+    margin: 10px;
+}

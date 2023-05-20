@@ -1,0 +1,70 @@
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #212121;
+}
+
+.footerWrapper {
+    direction: rtl;
+    padding: 20px;
+    color: #fff;
+}
+
+.footerRightBox {
+    padding: 10px;
+}
+
+.infoContainer {
+    margin-top: 20px;
+}
+
+.infoItem {
+    margin: 20px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.infoIcon {
+    color: rgb(255, 166, 0);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.footerCenterBox {
+    padding: 20px;
+}
+
+.centerBoxTitle {
+    margin-bottom: 20px;
+}
+
+.timelineBox {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLeftBox {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerImgContainer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footerLeftImg {
+    width: 30%;
+    border-radius: 5px;
+}

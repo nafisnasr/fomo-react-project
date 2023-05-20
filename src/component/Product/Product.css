@@ -1,0 +1,31 @@
+
+
+.ProductItemTitle {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lalezar';
+}
+.priceContainer span {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Lalezar';
+}
+
+.priceContainer .priceTitle {
+    font-family: 'Lalezar';
+}
+
+
+.productOrderBtn {
+    width: 100%;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    padding: 5px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productOrderBtn:hover {
+    background-color: rgb(241, 165, 23);
+
+}
